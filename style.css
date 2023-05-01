@@ -1,0 +1,131 @@
+.container{
+    display: flex; 
+     align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    height: 100vh;
+    max-width: 480px;
+    
+    
+} 
+body{
+    height:100px;
+    background-image: url(./images/istockphoto-1300054677-612x612.jpeg);
+    background-size: cover;
+    /* background: no-repeat; */
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.back{
+    /* background-color: black; */
+    padding: 20px;
+    width: 30%;
+    border-top: 5px rgba(251, 131, 26, 0.668) solid;
+    border-right: 5px rgba(251, 131, 26, 0.668) solid;
+    border-bottom: 5px rgba(204, 235, 8, 0.479) solid;
+    border-left: 5px rgba(204, 235, 8, 0.479) solid;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 2px 0px 2px 2px #0a4a62c3;
+    
+
+ }
+ .qrcode{
+    /* margin-left: 40px;
+    padding: 20px; */
+    border: 2px rgb(206, 198, 198) solid;
+    margin-top: 10px;
+
+    /* align-items: center; */
+ }
+ .form input{
+      border: none;
+      border-bottom: 5px rgba(53, 71, 17, 0.861) solid;
+      width: 100%;
+      background:rgb(225, 210, 149)
+
+ }
+ .wrapper{
+
+    border: 2px solid rgb(241, 233, 233);
+    padding: 10px;
+    color: white;
+    /* max-width: 480px; */
+ }
+
+  .form{
+    padding-top: 10px;
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
+ }
+ .form button{
+      margin-left: 0px;
+      margin-top: 10px;
+      width: 100%;
+      background-color: rgb(225, 215, 12);
+ }
+
+ .form button img{
+    width: 10%;
+ }
+ .qrcode img{
+          width: 70%;
+          margin-left: 50px;
+          padding: 10px;
+ }
+ .hd{
+    visibility: hidden;
+ }
+
+ @media(max-width: 500px){
+   body{
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+   }
+   .back{
+    width: 90%;
+    position: absolute;
+    margin-top: 10px;
+    padding-right: 20px;
+   }
+
+   .qrcode img{
+    margin-left: 50px;
+    /* padding-right: 90px; */
+   }
+   .form{
+    font-size: 20px;
+}
+.form button{
+    font-size: 25px;
+}
+ }
+/* 
+ @media(max-width: 1353px){
+    body{
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 1400px;
+     width: 100%;
+    }
+    .back{
+     width: 90%;
+     position: absolute;
+     margin-top: 10px;
+     padding-right: 20px;
+    }
+ 
+    .qrcode img{
+     margin-left: 100px;
+    }
+    .form{
+        font-size: 50px;
+    }
+    .form button{
+        font-size: 30px;
+    }
+  } */
